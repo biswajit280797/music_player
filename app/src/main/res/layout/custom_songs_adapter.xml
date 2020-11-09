@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/customRowLayout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textColor="#212121"
+                android:textStyle="normal"
+                android:textSize="17sp"
+                android:text="Mirzapur Theme Song"
+                android:paddingRight="9dp"
+                android:paddingBottom="-7dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/titleTrack"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bdbdbd"
+                android:text="Muna Bhaiya"
+                android:id="@+id/titleArtist"
+                android:paddingRight="7dp"
+                android:layout_alignLeft="@id/titleTrack"
+                android:layout_alignStart="@id/titleTrack"
+                android:layout_below="@id/titleTrack"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0e0e0"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

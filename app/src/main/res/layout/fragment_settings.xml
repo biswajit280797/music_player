@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:id="@+id/settingsFragment"
+    android:orientation="vertical">
+
+    <com.cleveroad.audiovisualization.GLAudioVisualizationView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/aboutUsVisualizer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:av_backgroundColor="#00032a"
+        app:av_layersCount="4"
+        app:av_wavesColors="@array/rainbow"
+        app:av_wavesCount="7"
+        app:av_wavesFooterHeight="170dp"
+        app:av_wavesHeight="70dp" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/shakeSwitch"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="cursive"
+        android:textColor="#ffffff"
+        android:text="Shake to change song"
+        android:textSize="30sp" />
+
+    <Switch
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:shadowColor="#ffffff"
+        android:id="@+id/shakeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "917615224878",
+    "firebase_url": "https://database-b31df.firebaseio.com",
+    "project_id": "database-b31df",
+    "storage_bucket": "database-b31df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917615224878:android:3d099724e7369f80e097bf",
+        "android_client_info": {
+          "package_name": "com.example.lexnmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917615224878-mkju098c3m7aulb6tt2r34sdhob4ssug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvSWvaZ2VusVH0cYNha7J3PCVpsaFe3og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917615224878-mkju098c3m7aulb6tt2r34sdhob4ssug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

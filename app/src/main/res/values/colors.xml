@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00032a</color> //dark blue
+    <color name="colorPrimaryDark">#00042a</color> //dark blue
+    <color name="colorAccent">#FF4081</color> //light pink
+
+    //rainbow colors
+    <color name="first">#270d36</color>
+    <color name="second">#4e1741</color>
+    <color name="third">#74204d</color>
+    <color name="fourth">#9d2a58</color>
+
+    <color name="one">#91377C</color>
+    <color name="two">#C1498E</color>
+    <color name="three">#E36B98</color>
+    <color name="four">#F4A59E</color>
+
+    <array name="rainbow">
+        <item>@color/first</item>
+        <item>@color/second</item>
+        <item>@color/third</item>
+        <item>@color/fourth</item>
+    </array>
+
+    //custom  colors
+    <array name="custom">
+        <item>@color/one</item>
+        <item>@color/two</item>
+        <item>@color/three</item>
+        <item>@color/four</item>
+    </array>
+</resources>
